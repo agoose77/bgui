@@ -14,7 +14,7 @@ class FlowLayout(Frame):
     theme_section = 'FlowLayout'
 
     def __init__(self, parent, name=None, border=None, aspect=None, size=None, pos=None, sub_theme='',
-                 options=BGUI_DEFAULT, flow_type=BGUI_FLOW_COLUMN, clip=False):
+                 options=BGUI_DEFAULT, flow_type=BGUI_FLOW_COLUMN):
         self._insert_at = [0.0, 1.0]
         self._flow_type = flow_type
 
